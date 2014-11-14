@@ -5,6 +5,6 @@ class Aquaskk < Cask
   url "http://dl.sourceforge.jp/aquaskk/58814/AquaSKK-#{version}.dmg"
   homepage 'http://aquaskk.sourceforge.jp/'
 
-  install 'AquaSKK.pkg'
+  pkg 'AquaSKK.pkg'
   uninstall :pkgutil => 'jp.surceforge.inputmethod.aquaskk.pkg'
 end
